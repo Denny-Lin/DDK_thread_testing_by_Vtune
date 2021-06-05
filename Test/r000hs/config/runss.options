@@ -1,0 +1,14 @@
+-r
+C:\Users\Jobs\Desktop\VTune\Test\r000hs
+--data-limit-mb=500
+--stack-stitching
+--follow-child
+--itt-config=frame
+--stackwalk=offline
+--mrte-mode=auto
+--mrte-type=java,dotnet
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--
+C:\Users\Jobs\Desktop\codes\naive_matrix.exe
